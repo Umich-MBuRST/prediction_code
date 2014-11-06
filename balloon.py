@@ -265,6 +265,7 @@ def get_args(argv):
 
     Year  = CurrentYear
     Month = CurrentMonth
+    #Why are you doing Month = Month + 1 if day is less than current
     if (Day > -1):
         if (Day < CurrentDay):
             Month = Month + 1
